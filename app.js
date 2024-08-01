@@ -44,7 +44,7 @@ function generarNumeroSecreto(){
 }
 function condicionesIniciales(){
   asignarTexto('h1', 'Juego del Número Secreto');
-  asignarTexto('p', `Indica un numero del 1 al 10 ${numeromaximo}`);
+  asignarTexto('p', `Indica un numero del 1 al ${numeromaximo}`);
   numeroSecreto=generarNumeroSecreto();
   intentos=1;
 }
